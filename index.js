@@ -1,9 +1,12 @@
+require ('dotenv').config();
+
 const { leerInput, inquirerMenu, pausa } = require("./helpers/inquirer");
 const Busquedas = require("./models/busquedas.js");
 
+
 //console.log ('Hola Mundo');
 
-
+//console.log(process.env)
 
 const main = async() => 
 {
